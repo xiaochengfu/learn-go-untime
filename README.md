@@ -35,6 +35,9 @@
 上次学习go时，还没有go mod，go 1.11之后，加入了包依赖，跟php的composer类似，当然要赶紧get✅
 
 ```bash
+#首先修改go proxy 改为七牛云镜像
+go env -w GOPROXY=https://goproxy.cn,direct
+
 #1.生成go.mod文件
 
 go mod init //当前目录
