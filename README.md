@@ -6,7 +6,9 @@
 
 > 知识补充： sync.waitGroup
 
-> 知识补充： func.receiver
+> 知识补充： func.receiver 
+
+成员函数，相当于类的方法，作用在receiver上
 
 > 知识充电：Linux 常用SIG信号及其键值
 
@@ -55,4 +57,14 @@ go mod tidy
 go mod vendor -v
 
 ```
+> 知识补充： struct.interface 
 
+利用接口实现的一种编程模式，用于程序的解耦
+
+> 知识补充：struct.interface.check
+
+接口完整性检查 `var _ 接口名称 = (*结构体名称)(nil)`
+
+> 知识补充： struct.nest 
+
+结构体内嵌，也可实现解耦
