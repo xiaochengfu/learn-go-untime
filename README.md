@@ -1,8 +1,12 @@
-### 通过学习nsq源码来学习go
+### go学习实践
 
-#### nsqd main源码解析
+> 知识补充： sync.once
 
-#### 第一个包 go-svc 可以与Linux配合使用的Windows Service包装器
+查看对应目录下的源代码（下同）
+
+> 知识补充： sync.waitGroup
+
+> 知识补充： func.receiver
 
 > 知识充电：Linux 常用SIG信号及其键值
 
@@ -51,12 +55,4 @@ go mod tidy
 go mod vendor -v
 
 ```
-
-> 知识补充： sync.once
-
-可查看代码示例学习，路径 `sync.once/main.go`
-
-> 知识补充： sync.waitGroup
-
-可查看代码示例学习，路径 `sync.waitGroup/main.go`
 
