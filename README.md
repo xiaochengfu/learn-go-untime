@@ -1,17 +1,18 @@
 ### go学习实践
 
-> 知识补充： sync.once
+> 知识补充： [sync.once](/sync.once/main.go)
 
 查看对应目录下的源代码（下同）
 
-> 知识补充： sync.waitGroup
+> 知识补充： [sync.waitGroup](/sync.waitGroup/main.go)
 
-> 知识补充： func.receiver 
+> 知识补充： [func.receiver](/func.receiver/main.go) 
 
 成员函数，相当于类的方法，作用在receiver上
 
 > 知识充电：Linux 常用SIG信号及其键值
 
+[原文链接](https://blog.csdn.net/qq_38570571/article/details/79870441 "SIG信号") 
 ```
 01 SIGHUP 挂起（hangup）
 02 SIGINT 中断，当用户从键盘按^c键或^break键时
@@ -32,8 +33,6 @@
 17 SIGUSR2 用户自定义信号2
 18 SIGCLD 某个子进程死
 19 SIGPWR 电源故障
-
-原文链接：https://blog.csdn.net/qq_38570571/article/details/79870441
 ```
 
 > 知识补充：go mod
@@ -57,14 +56,18 @@ go mod tidy
 go mod vendor -v
 
 ```
-> 知识补充： struct.interface 
+> 知识补充： [struct.interface](/struct.interface/main.go) 
 
 利用接口实现的一种编程模式，用于程序的解耦
 
-> 知识补充：struct.interface.check
+> 知识补充：[struct.interface.check](/struct.interface.check/main.go)
 
 接口完整性检查 `var _ 接口名称 = (*结构体名称)(nil)`
 
 > 知识补充： [struct.nest](/struct.nest/main.go) 
 
 结构体内嵌，也可实现解耦
+
+> 知识补充：[time](/time/main.go)
+
+常用的时间获取和格式转换
