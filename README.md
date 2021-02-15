@@ -71,3 +71,9 @@ go mod vendor -v
 > 知识补充：[time](/time/main.go)
 
 常用的时间获取和格式转换
+
+> 知识补充： [performance.test](/performance.test)
+
+1. 字符串拼接推荐方法与性能测试对比 [string_joint_test.go](/performance.test/string_joint_test.go)
+
+2. int转字符推荐方法与性能测试对比 [string_transform_test.go](/performance.test/string_transform_test.go)
