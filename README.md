@@ -65,6 +65,6 @@ go mod vendor -v
 
 接口完整性检查 `var _ 接口名称 = (*结构体名称)(nil)`
 
-> 知识补充： struct.nest 
+> 知识补充： [struct.nest](#struct.nest.main.go) 
 
 结构体内嵌，也可实现解耦
