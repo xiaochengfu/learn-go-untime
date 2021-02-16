@@ -77,3 +77,7 @@ go mod vendor -v
 1. 字符串拼接推荐方法与性能测试对比 [string_joint_test.go](/performance.test/string_joint_test.go)
 
 2. int转字符推荐方法与性能测试对比 [string_transform_test.go](/performance.test/string_transform_test.go)
+
+> 知识补充：[func.options](/func.options)
+
+使用高阶函数来实现配置选项的灵活定义
