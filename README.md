@@ -81,3 +81,7 @@ go mod vendor -v
 > 知识补充：[func.options](/func.options)
 
 使用高阶函数来实现配置选项的灵活定义
+
+> 知识补充：[func.channel](/func.channel)
+
+通过chan来实现类似管道式的函数
