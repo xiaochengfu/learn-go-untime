@@ -89,7 +89,7 @@ go mod vendor -v
 > 知识补充：[genny.example](/genny.example)
 
 1. go generate的用例
-2. 通过gen第三方包实现go类似c++template的效果，来解决泛型需要类型检查的问题
+2. 通过genny第三方包实现go类似c++template的效果，来解决泛型需要类型检查的问题,`go get github.com/cheekybits/genny`
 
 > 知识补充：[interface.reflect](/interface.reflect/main.go)
 
