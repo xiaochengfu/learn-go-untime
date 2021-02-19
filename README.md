@@ -98,3 +98,7 @@ reflect的常用用法
 > 知识补充：[interface.type](/interface.type/main.go)
 
 interface的类型转换例子
+
+> 知识补充：[pointer](/pointer/main.go)
+
+值类型和引用类型的区别，&和*的区别
