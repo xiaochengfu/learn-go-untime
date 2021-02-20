@@ -102,3 +102,7 @@ interface的类型转换例子
 > 知识补充：[pointer](/pointer/main.go)
 
 值类型和引用类型的区别，&和*的区别
+
+> 知识补充：[build](/interview/build)
+
+通过编译时的报错来加深go的基础语法知识
