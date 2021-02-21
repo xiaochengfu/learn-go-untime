@@ -106,3 +106,7 @@ interface的类型转换例子
 > 知识补充：[build](/notic/build)
 
 通过编译时的报错来加深go的基础语法知识
+
+> 知识补充：[channel](/chan.rand)
+
+chan的用法，实现一个随机数的生成和打印
