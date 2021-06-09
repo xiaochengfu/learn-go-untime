@@ -43,6 +43,9 @@
 #首先修改go proxy 改为七牛云镜像
 go env -w GOPROXY=https://goproxy.cn,direct
 
+#打开go mod 支持
+go env -w go env -w GO111MODULE=on
+
 #1.生成go.mod文件
 
 go mod init //当前目录
@@ -54,6 +57,9 @@ go mod tidy
 #3.加载依赖包，自动归档到vendor目录
 
 go mod vendor -v
+
+#4. 使用goland开发时，开启go fmt和goimports 工具，自动格式化和引入包
+setting -> tools -> file watchers
 
 ```
 > 知识补充： [struct.interface](/struct.interface/main.go) 
