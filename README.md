@@ -116,3 +116,7 @@ interface的类型转换例子
 > 知识补充：[channel](/chan.rand)
 
 chan的用法，实现一个随机数的生成和打印
+
+> 知识补充：[zookeeper](/zookeeper.lock)
+
+基于zookeeper实现的分布式锁的示例
