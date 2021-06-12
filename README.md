@@ -7,9 +7,7 @@
 ##### 3. 知识补充： [func.receiver](/func.receiver/main.go) 
 ###### 成员函数，相当于类的方法，作用在receiver上
 
-##### 4. 知识充电：Linux 常用SIG信号及其键值
-
-[原文链接](https://blog.csdn.net/qq_38570571/article/details/79870441 "SIG信号") 
+##### 4. 知识充电：Linux 常用SIG信号及其键值 [原文链接](https://blog.csdn.net/qq_38570571/article/details/79870441 "SIG信号") 
 ```
 01 SIGHUP 挂起（hangup）
 02 SIGINT 中断，当用户从键盘按^c键或^break键时
