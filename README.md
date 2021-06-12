@@ -84,10 +84,10 @@ setting -> tools -> file watchers
 ###### 1. go generate的用例
 ###### 2. 通过genny第三方包实现go类似c++template的效果，来解决泛型需要类型检查的问题,`go get github.com/cheekybits/genny`
 
-###### 14. 知识补充：[interface.reflect](/interface.reflect/main.go)
+##### 14. 知识补充：[interface.reflect](/interface.reflect/main.go)
 ###### reflect的常用用法
 
-###### 15. 知识补充：[interface.type](/interface.type/main.go)
+##### 15. 知识补充：[interface.type](/interface.type/main.go)
 ###### interface的类型转换例子
 
 ##### 16. 知识补充：[pointer](/pointer/main.go)
