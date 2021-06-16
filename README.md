@@ -105,3 +105,5 @@ setting -> tools -> file watchers
 ###### 2. 实现server/client的ssl+token鉴权通讯
 ###### 3. 实例参考 [go语言中文网](http://www.topgoer.com/%E5%BE%AE%E6%9C%8D%E5%8A%A1/gRPC/)
 
+##### 21. 知识补充：[sync.map](/sync.map)
+###### 使用sync.map 实现并发安全
