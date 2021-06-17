@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	startTime := time.Now()
 	fmt.Println(time.Now()) //2021-02-15 10:54:15.598193 +0800 CST m=+0.000074813
 	//时间格式化
 	fmt.Println(time.Now().Format("2006-01-02 15:04:05")) //2021-02-15 10:54:15
@@ -26,5 +27,8 @@ func main() {
 	//日期格式转时间戳
 	pDate, _ := time.Parse("2006-01-02", "2021-12-24")
 	fmt.Println(pDate.Unix()) //1640304000
+
+	endTime := time.Now()
+	fmt.Println("执行耗时：",endTime.Sub(startTime))
 
 }

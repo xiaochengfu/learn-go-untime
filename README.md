@@ -107,3 +107,7 @@ setting -> tools -> file watchers
 
 ##### 21. 知识补充：[sync.map](/sync.map)
 ###### 使用sync.map 实现并发安全
+
+##### 22. 知识补充：[sync.mutex](/sync.mutex)
+###### 1. sync.mutex 互斥锁
+###### 2. sync.RWMutex 读写锁
