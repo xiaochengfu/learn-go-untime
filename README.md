@@ -111,3 +111,6 @@ setting -> tools -> file watchers
 ##### 22. 知识补充：[sync.mutex](/sync.mutex)
 ###### 1. sync.mutex 互斥锁
 ###### 2. sync.RWMutex 读写锁
+
+##### 23. 知识补充：[context](/context)
+###### context在取消协程时的应用示例
