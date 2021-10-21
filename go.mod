@@ -5,6 +5,7 @@ go 1.13
 require (
 	github.com/cheekybits/genny v1.0.0
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/judwhite/go-svc v1.1.2
 	github.com/pkg/errors v0.9.1
 	github.com/samuel/go-zookeeper v0.0.0-20201211165307-7117e9ea2414
