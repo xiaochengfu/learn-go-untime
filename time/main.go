@@ -5,6 +5,32 @@ import (
 	"time"
 )
 
+func testTimer1() {
+	go func() {
+		fmt.Println("test timer1")
+	}()
+}
+
+func ticker() {
+	timer1 := time.NewTicker(2 * time.Second)
+	defer timer1.Stop()
+	for {
+		select {
+		case <-timer1.C:
+			testTimer1()
+		}
+	}
+}
+
+func timer() {
+	time2 := time.NewTimer(5 * time.Second)
+	defer time2.Stop()
+	select {
+	case <-time2.C:
+		fmt.Println("5s了")
+	}
+}
+
 func main() {
 	startTime := time.Now()
 	fmt.Println(time.Now()) //2021-02-15 10:54:15.598193 +0800 CST m=+0.000074813
@@ -29,6 +55,9 @@ func main() {
 	fmt.Println(pDate.Unix()) //1640304000
 
 	endTime := time.Now()
-	fmt.Println("执行耗时：",endTime.Sub(startTime))
+	fmt.Println("执行耗时：", endTime.Sub(startTime))
 
+	go ticker() //每2秒执行一次
+	go timer()  //5秒后执行
+	time.Sleep(10 * time.Second)
 }
